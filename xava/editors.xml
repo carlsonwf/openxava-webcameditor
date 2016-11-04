@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE editors SYSTEM "dtds/editors.dtd">
+
+<!-- OpenXavaTest -->
+
+<editors>
+	<editor name="Webcam" url="webcamImageEditor.jsp" format="false">
+		<formatter class="org.openxava.formatters.ImageFormatter" />
+		<for-stereotype stereotype="WEBCAM" />
+	</editor>
+	
+	
+</editors>

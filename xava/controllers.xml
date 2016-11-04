@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding = "ISO-8859-1"?>
+
+<!DOCTYPE controllers SYSTEM "dtds/controllers.dtd">
+
+<controllers>
+
+	<object name="xava_newImageProperty" class="java.lang.String" />
+
+	<controller name="WebcamImageEditor">
+		<action name="changeImage" class="org.webcameditor.actions.ChangeImageAction" />
+	</controller>
+	<controller name="LoadImageWebcam">
+		<action name="loadImage" class="org.webcameditor.actions.LoadImageAction" />
+		<action name="cancel" class="org.openxava.actions.CancelAction" />
+
+	</controller>
+
+
+</controllers>
